@@ -357,7 +357,7 @@
   "ListingPage.errorLoadingListingTitle": "Error in loading listing",
   "ListingPage.featuresTitle": "Amenities",
   "ListingPage.finishListing": "Finish listing",
-  "ListingPage.guideedBy": "guideed by {name}",
+  "ListingPage.hostedBy": "Guided by {name}",
   "ListingPage.loadingListingMessage": "Loading listing…",
   "ListingPage.loadingListingTitle": "Loading listing…",
   "ListingPage.locationTitle": "Location",
