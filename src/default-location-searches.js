@@ -7,40 +7,47 @@ const { LatLng, LatLngBounds } = sdkTypes;
 //
 // Each item in the array should be an object with a unique `id` (String) and a
 // `predictionPlace` (util.types.place) properties.
+
+New Delhi, India
+San Jose, Costa Rica
+Lusaka, Zambia
+Bogota, Columbia
+Cairns, Australia
+
 const defaultLocations = [
   {
-    id: 'default-helsinki',
+    id: 'default-tucson',
     predictionPlace: {
-      address: 'Helsinki, Finland',
-      bounds: new LatLngBounds(new LatLng(60.29783, 25.25448), new LatLng(59.92248, 24.78287)),
+      address: 'Tucson, Arizona, United States',
+      bounds: new LatLngBounds(new LatLng(32.580464, -110.597399), new LatLng(31.561131, -111.651601)),
     },
   },
   {
-    id: 'default-turku',
+    id: 'default-tornoto',
     predictionPlace: {
-      address: 'Turku, Finland',
-      bounds: new LatLngBounds(new LatLng(60.53045, 22.38197), new LatLng(60.33361, 22.06644)),
+      address: 'Toronto, Ontario, Canada',
+      bounds: new LatLngBounds(new LatLng(43.855465974, -79.11552021), new LatLng(43.581071012, -79.639302909)),
     },
   },
   {
-    id: 'default-tampere',
+    id: 'default-berlin',
     predictionPlace: {
-      address: 'Tampere, Finland',
-      bounds: new LatLngBounds(new LatLng(61.83657, 24.11838), new LatLng(61.42728, 23.5422)),
+      address: 'Berlin, Germany',
+      bounds: new LatLngBounds(new LatLng(52.675502098, 13.761131097), new LatLng(52.338260903, 13.088359904)),
     },
   },
   {
-    id: 'default-oulu',
+    id: 'default-amsterdam',
     predictionPlace: {
-      address: 'Oulu, Finland',
-      bounds: new LatLngBounds(new LatLng(65.56434, 26.77069), new LatLng(64.8443, 24.11494)),
+      address: 'Amsterdam, North Holland, Netherlands',
+      bounds: new LatLngBounds(new LatLng(52.430679, 5.068426), new LatLng(52.318248, 4.728759)),
     },
   },
   {
-    id: 'default-ruka',
+    id: 'default-sanJose',
     predictionPlace: {
-      address: 'Ruka, Finland',
-      bounds: new LatLngBounds(new LatLng(66.16997, 29.16773), new LatLng(66.16095, 29.13572)),
+      address: 'San José, Costa Rica',
+      bounds: new LatLngBounds(new LatLng(10.187893096, -83.4297279), new LatLng(9.075026902, -84.59451409)),
     },
   },
 ];
